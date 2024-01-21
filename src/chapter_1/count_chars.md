@@ -4,7 +4,7 @@
 
 > Create a program that reads a string, then echoes back the string together with its length.
 
-## Solution
+## Background
 
 We already know how to read a string from user input from the previous challenge.
 The remaining question is how to calculate its length.
@@ -43,7 +43,7 @@ For the string "🤦🏼‍♂️":
 - The number of Unicode scalar values/code points: 5,
 - The number of extended grapheme clusters: 1.
 
-### The Rust code
+## Solution
 
 To count the number of code units and scalar values, we can use the built-in functions `str::len()`
 and `str::chars()`. For the number of extended grapheme clusters, we shall use the crate [unic_segment](https://docs.rs/unic-segment/latest/unic_segment/) instead of implementing our own
@@ -59,7 +59,7 @@ Enter a string:
 🤦🏼‍♂️🤦🏼
 Your string '🤦🏼‍♂️🤦🏼' has:
         25 byte(s)
-        7 scalar values
+        7 scalar value(s)
         2 extended grapheme cluster(s).
 ```
 

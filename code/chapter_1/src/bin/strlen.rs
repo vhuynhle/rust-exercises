@@ -14,7 +14,7 @@ fn main() -> io::Result<()> {
 
     println!("Your string '{}' has:", input);
     println!("\t{} byte(s)", num_bytes);
-    println!("\t{} scalar values", num_scalars);
+    println!("\t{} scalar value(s)", num_scalars);
     println!("\t{} extended grapheme cluster(s).", num_egc);
 
     Ok(())

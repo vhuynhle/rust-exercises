@@ -1,7 +1,12 @@
 # Hello, World!
 
+## The challenge
+
+> Ask the user for their name and greet them.
+
+## Solution
 This is a variation of the classic "Hello, World" program. Instead of just printing out a fixed string,
-we will ask for a name and use it in our greeting:
+we to read a string use it in our greeting:
 
 ```
 What is your name?
@@ -17,7 +22,7 @@ where the second variable `name` shadows the first variable of the same name. Al
 the compiler guarantees that the second variable is not a
 [dangling reference](https://doc.rust-lang.org/book/ch04-02-references-and-borrowing.html#dangling-references).
 
-### Variation 1
+## Variation 1
 In this variation, no variable is allowed. Therefore, we cannot no longer use `Stdin::read_line()`,
 which writes to an existing buffer.
 Instead, we can use `Stdin::lines()`, which returns an iterator over input lines.
@@ -28,7 +33,7 @@ Instead, we can use `Stdin::lines()`, which returns an iterator over input lines
 
 Doing multiple things in one statement like this maybe a bad practice, but we did solve the challenge.
 
-### Variation 2
+## Variation 2
 Now, we want different greetings for different people. The first thing we need to add is a list of
 greetings to choose from. Here is a short list:[^1]
 
