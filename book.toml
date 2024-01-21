@@ -4,3 +4,12 @@ language = "en"
 multilingual = false
 src = "src"
 title = "Rust Exercises for Programmers"
+description = "Some Rust Exercises with Solutions"
+
+[output.html]
+mathjax-support = true
+git-repository-url = "https://github.com/vhuynhle/rust-exercises/tree/master"
+
+[output.html.playground]
+editable = true
+line-numbers = true

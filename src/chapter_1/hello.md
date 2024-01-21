@@ -1,6 +1,6 @@
 # Hello, World!
 
-## The challenge
+## Challenge
 
 > Ask the user for their name and greet them.
 
