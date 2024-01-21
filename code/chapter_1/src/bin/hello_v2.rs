@@ -1,4 +1,6 @@
-use rand::{thread_rng, Rng};
+// ANCHOR: use_rand
+use rand::{seq::SliceRandom, thread_rng};
+// ANCHOR_END: use_rand
 use std::io;
 
 // ANCHOR: phrasebook
@@ -18,8 +20,7 @@ fn main() -> io::Result<()> {
 
     // ANCHOR: randomized_greetings
     let mut rng = thread_rng();
-    let index = rng.gen_range(0..GREETINGS.len());
-    println!("{}, {}!", GREETINGS[index], name);
+    println!("{}, {}!", GREETINGS.choose(&mut rng).unwrap(), name);
     // ANCHOR_END: randomized_greetings
 
     Ok(())

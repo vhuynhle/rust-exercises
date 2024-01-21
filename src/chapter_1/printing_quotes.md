@@ -29,3 +29,10 @@ Of course, there are other escape sequences, for instance:
 ```rust
 println!("\"\nI\u{2764}\u{FE0F}\u{1F1FB}\u{1F1F3}\r\"")
 ```
+This code snippet prints
+
+```
+"
+I❤️🇻🇳
+"
+```

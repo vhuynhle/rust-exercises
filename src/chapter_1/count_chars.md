@@ -30,12 +30,12 @@ represented by 17 bytes:[^1]
 |                                           |                  | Total: 17    |
 
 Here we are presented with several terms:
-- UTF-8 code unit: 8 bits/1 byte
-- Unicode code point: A position in the Unicode character set. In the UTF-8 encoding, each code point
+- *UTF-8 code unit*: 8 bits/1 byte
+- *Unicode code point*: A position in the Unicode character set. In the UTF-8 encoding, each code point
 is represented by one to four code units.
-- Unicode scalar value: A *Unicode code point* except high-surrogate and low-surrogate code points.
+- *Unicode scalar value*: A Unicode code point except high-surrogate and low-surrogate code points.
 In other words, the set of scalar values is a subset of code points.
-- Extended grapheme cluster: The whole emoji is an extended grapheme cluster.
+- *Extended grapheme cluster*: The whole emoji is an extended grapheme cluster.
 
 Therefore, when it comes to a UTF-8 string, we have multiple *lengths* measurements.
 For the string "🤦🏼‍♂️":

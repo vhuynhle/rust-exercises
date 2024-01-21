@@ -57,7 +57,7 @@ rand = "0.8.5"
 
 ```rust,noplayground
 // File: hello_v2.rs
-use rand::{thread_rng, Rng};
+{{#include ../../code/chapter_1/src/bin/hello_v2.rs:use_rand}}
 ```
 
 And here is the code to print randomized greetings:

@@ -6,3 +6,4 @@
   - [Hello, World!](./chapter_1/hello.md)
   - [Counting the Number of Characters](./chapter_1/count_chars.md)
   - [Printing Quotes](./chapter_1/printing_quotes.md)
+  - [Mad Lib](./chapter_1/mad_lib.md)
