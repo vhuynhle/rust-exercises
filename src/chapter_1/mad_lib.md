@@ -19,7 +19,7 @@ story is
 Do you walk your blue dog quickly? That's hilarious!
 ```
 
-The remaining pieces are the lists of words and a method for selecting words from them.
+The missing pieces are the lists of words and a method for selecting words from them.
 Here are my lists of not-so-funny-but-safe words:
 
 ```rust,noplayground
