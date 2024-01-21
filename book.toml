@@ -1,0 +1,6 @@
+[book]
+authors = ["Van Huynh Le"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Rust Exercises for Programmers"
