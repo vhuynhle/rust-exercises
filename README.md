@@ -1,6 +1,4 @@
-Rust Exercises for Programmers
+[Rust Exercises for Programmers](https://vhuynhle.github.io/rust-exercises/index.html)
 ==============================
 
 ***Some Rust Exercises with Solutions***
-
-[GitBook](https://vhuynhle.github.io/rust-exercises)
