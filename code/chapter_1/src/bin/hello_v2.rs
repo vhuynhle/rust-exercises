@@ -15,7 +15,6 @@ const GREETINGS: &[&str] = &[
 fn main() -> io::Result<()> {
     println!("What is your name?");
     let name = io::stdin().lines().next().expect("No line entered")?;
-    let name = name.trim();
 
     // ANCHOR: randomized_greetings
     let mut rng = thread_rng();

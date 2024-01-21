@@ -24,9 +24,8 @@ Me
 Me says, "51% of quotes on the Internet are fake."
 ```
 
-Of course there are other escape sequences:
+Of course, there are other escape sequences, for instance:
 
 ```rust
 println!("\"\nI\u{2764}\u{FE0F}\u{1F1FB}\u{1F1F3}\r\"")
-
 ```
