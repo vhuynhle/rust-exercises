@@ -6,7 +6,7 @@
 
 ## Solution
 This is a variation of the classic "Hello, World" program. Instead of just printing out a fixed string,
-we to read a string use it in our greeting:
+we need to read a string use it in our greeting:
 
 ```
 What is your name?

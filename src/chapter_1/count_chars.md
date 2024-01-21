@@ -63,4 +63,4 @@ Your string '🤦🏼‍♂️🤦🏼' has:
         2 extended grapheme cluster(s).
 ```
 
-[^1] [It's Not Wrong that "🤦🏼‍♂️".length == 7](https://hsivonen.fi/string-length/), Henri Sivonen.
+[^1] More at [It's Not Wrong that "🤦🏼‍♂️".length == 7](https://hsivonen.fi/string-length/), Henri Sivonen.
