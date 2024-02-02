@@ -5,3 +5,4 @@
 - [Printing Quotes](./printing_quotes.md)
 - [Mad Lib](./mad_lib.md)
 - [Simple Math](./simple_math.md)
+- [Retirement Calculator](./retirement_calculator.md)
