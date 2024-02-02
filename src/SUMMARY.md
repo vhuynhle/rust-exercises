@@ -11,3 +11,4 @@
   - [Retirement Calculator](./chapter_1/retirement_calculator.md)
 - [Chapter 2: Calculations](./chapter_2/README.md)
   - [Area of a Rectangular Room](chapter_2/rect_area.md)
+  - [Pizza Party](chapter_2/pizza_party.md)
