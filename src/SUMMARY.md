@@ -9,3 +9,5 @@
   - [Mad Lib](./chapter_1/mad_lib.md)
   - [Simple Math](./chapter_1/simple_math.md)
   - [Retirement Calculator](./chapter_1/retirement_calculator.md)
+- [Chapter 2: Calculations](./chapter_2/README.md)
+  - [Area of a Rectangular Room](chapter_2/rect_area.md)
