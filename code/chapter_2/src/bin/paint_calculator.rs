@@ -12,21 +12,21 @@ fn pluralize(word: &str) -> String {
 // ANCHOR_END: pluralize
 
 // ANCHOR: find_noun_form
-trait HasOne<T> {
-    const ONE: T;
+trait HasOne {
+    const ONE: Self;
 }
 
-impl HasOne<u64> for u64 {
+impl HasOne for u64 {
     const ONE: u64 = 1;
 }
 
-impl HasOne<f64> for f64 {
+impl HasOne for f64 {
     const ONE: f64 = 1.0;
 }
 
 fn find_noun_form<T>(count: T, word: &str) -> String
 where
-    T: HasOne<T> + std::cmp::PartialOrd,
+    T: HasOne + std::cmp::PartialOrd,
 {
     if count > T::ONE {
         pluralize(word)

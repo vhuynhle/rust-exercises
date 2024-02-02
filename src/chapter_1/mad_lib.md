@@ -2,7 +2,7 @@
 
 ## Challenge
 
-> Generates random stories from tuples of (noun, verb, adjective, adverb).
+> Generate random stories from tuples of (noun, verb, adjective, adverb).
 
 ## Solution
 

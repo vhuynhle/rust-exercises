@@ -27,6 +27,8 @@ And here are the functions to pluralize a word:
 {{#include ../../code/chapter_2/src/bin/paint_calculator.rs:find_noun_form}}
 ```
 
-Notice how we used trait to write a generic `find_noun_fom` function that accepts both `u64` and `f64`
-as the first parameter.
+Notice how we use `HasOne` trait to write a generic `find_noun_form`
+function that accepts both `u64` and `f64` as the first parameter.
+In addition, we use [associated constant](https://doc.rust-lang.org/reference/items/associated-items.html#associated-constants) feature
+to declare the `ONE` constant for different number types.
 In practice, we could use the `num` crate instead.
