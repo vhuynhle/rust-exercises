@@ -2,7 +2,7 @@
 
 > Write a program to compute the value of an investment compounded over time.
 
-The formula for simple interest is:
+The formula for compound interest is:
 
 ```
 A = P (1 + r/n) ^ (nt)
