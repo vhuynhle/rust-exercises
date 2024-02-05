@@ -19,3 +19,4 @@
   - [Compound Interest](./chapter_2/compound_interest.md)
 - [Chapter 3: Making Decisions](./chapter_3/README.md)
   - [Tax Calculator](chapter_3/tax_calculator.md)
+  - [Password Validation](./chapter_3/password_validation.md)
