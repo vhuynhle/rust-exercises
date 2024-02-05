@@ -17,3 +17,5 @@
   - [Currency Conversion](./chapter_2/currency_conversion.md)
   - [Simple Interest](./chapter_2/simple_interest.md)
   - [Compound Interest](./chapter_2/compound_interest.md)
+- [Chapter 3: Making Decisions](./chapter_3/README.md)
+  - [Tax Calculator](chapter_3/tax_calculator.md)
