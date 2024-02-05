@@ -4,3 +4,4 @@
 - [Self-Checkout](./self_checkout.md)
 - [Currency Conversion](./currency_conversion.md)
 - [Simple Interest](./simple_interest.md)
+- [Compound Interest](./compound_interest.md)

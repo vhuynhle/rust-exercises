@@ -16,3 +16,4 @@
   - [Self-Checkout](chapter_2/self_checkout.md)
   - [Currency Conversion](./chapter_2/currency_conversion.md)
   - [Simple Interest](./chapter_2/simple_interest.md)
+  - [Compound Interest](./chapter_2/compound_interest.md)

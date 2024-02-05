@@ -8,7 +8,7 @@ $$
 A = P(1 + rt)
 $$
 
-where $$P$$ is the principle amount, $$r$$ is the annual rate of interest,
+where $$P$$ is the principal amount, $$r$$ is the annual rate of interest,
 and
 
 $$t$$
