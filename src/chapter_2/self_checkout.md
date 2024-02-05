@@ -7,6 +7,6 @@
 This is a simple exercise. The main challenge is to decide when to stop reading user input.
 Here we use `match` clause to check for invalid input and stop:
 
-```rust
+```rust,noplayground
 {{#include ../../code/chapter_2/src/bin/self_checkout.rs:read_loop}}
 ```

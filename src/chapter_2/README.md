@@ -1,3 +1,5 @@
 - [Area of a Rectangular Room](./rect_area.md)
 - [Pizza Party](./pizza_party.md)
 - [Paint Calculator](./paint_calculator.md)
+- [Self-Checkout](./self_checkout.md)
+- [Currency Conversion](./currency_conversion.md)
