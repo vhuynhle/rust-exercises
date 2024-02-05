@@ -3,3 +3,4 @@
 - [Paint Calculator](./paint_calculator.md)
 - [Self-Checkout](./self_checkout.md)
 - [Currency Conversion](./currency_conversion.md)
+- [Simple Interest](./simple_interest.md)

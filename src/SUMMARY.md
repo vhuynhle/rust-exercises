@@ -15,3 +15,4 @@
   - [Paint Calculator](chapter_2/paint_calculator.md)
   - [Self-Checkout](chapter_2/self_checkout.md)
   - [Currency Conversion](./chapter_2/currency_conversion.md)
+  - [Simple Interest](./chapter_2/simple_interest.md)
