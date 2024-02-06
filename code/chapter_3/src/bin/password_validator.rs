@@ -1,6 +1,6 @@
-use std::io::stdin;
 
-use utils::read_value;
+
+
 
 const PASSWORD: &str = "abc$123";
 
@@ -11,7 +11,7 @@ fn main() {
     // ANCHOR_END: read_password
 
     // ANCHOR: check
-    if &password == PASSWORD {
+    if password == PASSWORD {
         println!("Welcome!");
     } else {
         println!("I don't know you.");
