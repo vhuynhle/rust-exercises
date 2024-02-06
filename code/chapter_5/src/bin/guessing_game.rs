@@ -11,7 +11,7 @@ fn pick_upper_bound() -> i32 {
     print!("Pick a difficulty level (1, 2, or 3): ");
     let _ = stdout().flush();
     let level: u32 = read_value(&mut stdin()).expect("Failed to read the level");
-    if level < 1 || level > 3 {
+    if !(1..=3).contains(&level) {
         eprintln!("Invalid level chosen");
         exit(-1);
     }
