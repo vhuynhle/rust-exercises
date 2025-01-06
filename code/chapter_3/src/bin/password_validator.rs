@@ -1,7 +1,3 @@
-
-
-
-
 const PASSWORD: &str = "abc$123";
 
 fn main() {

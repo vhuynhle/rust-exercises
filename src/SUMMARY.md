@@ -21,3 +21,4 @@
   - [Tax Calculator](chapter_3/tax_calculator.md)
   - [Password Validation](./chapter_3/password_validation.md)
   - [Legal Driving Age](./chapter_3/legal_driving_age.md)
+  - [Blood Alcohol Calculator](chapter_3/blood_alcohol_calc.md)
