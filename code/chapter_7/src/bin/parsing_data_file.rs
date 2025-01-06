@@ -13,7 +13,7 @@ enum EmployeeParseError {
     WrongNumberOfFields,
     EmptyLastName,
     EmptyFirstName,
-    InvalidPostCode,
+    InvalidSalary,
 }
 
 impl FromStr for Employee {
@@ -35,7 +35,7 @@ impl FromStr for Employee {
 
         let salary = match fields[2].parse::<u32>() {
             Ok(number) => number,
-            _ => return Err(EmployeeParseError::InvalidPostCode),
+            _ => return Err(EmployeeParseError::InvalidSalary),
         };
 
         Ok(Employee {
