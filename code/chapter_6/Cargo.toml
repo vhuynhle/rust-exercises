@@ -7,4 +7,5 @@ edition = "2021"
 
 [dependencies]
 rand = "0.8.5"
+time = { version = "0.3.37", features = ["parsing"] }
 utils = { path = "../utils" }
