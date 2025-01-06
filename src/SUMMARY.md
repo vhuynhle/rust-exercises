@@ -22,3 +22,4 @@
   - [Password Validation](./chapter_3/password_validation.md)
   - [Legal Driving Age](./chapter_3/legal_driving_age.md)
   - [Blood Alcohol Calculator](chapter_3/blood_alcohol_calc.md)
+  - [Temperature Converter](chapter_3/temperature_converter.md)

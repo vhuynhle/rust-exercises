@@ -1,20 +1,23 @@
 use std::{
     fmt::Display,
-    io::{stdin, ErrorKind},
+    io::{stdin, ErrorKind, Write},
+    str::FromStr,
 };
 
 use utils::read_value;
 
+// ANCHOR: temperature_scale_enum
 enum TemperatureScale {
     Celsius,
     Farenheit,
 }
+// ANCHOR_END: temperature_scale_enum
 
-impl TryFrom<&str> for TemperatureScale {
-    type Error = std::io::Error;
+impl FromStr for TemperatureScale {
+    type Err = std::io::Error;
 
-    fn try_from(value: &str) -> Result<Self, Self::Error> {
-        match value {
+    fn from_str(s: &str) -> Result<Self, Self::Err> {
+        match s {
             "C" => Ok(TemperatureScale::Celsius),
             "F" => Ok(TemperatureScale::Farenheit),
             _ => Err(std::io::Error::from(ErrorKind::InvalidData)),
@@ -22,6 +25,7 @@ impl TryFrom<&str> for TemperatureScale {
     }
 }
 
+// ANCHOR: display_trait
 impl Display for TemperatureScale {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
         match self {
@@ -30,16 +34,20 @@ impl Display for TemperatureScale {
         }
     }
 }
+// ANCHOR_END: display_trait
 
 fn main() {
     println!("Press C to convert from Fahrenheit to Celsius.");
     println!("Press F to convert from Celsius to Fahrenheit.");
-    let target_scale: TemperatureScale = read_value::<String>(&mut stdin())
-        .expect("Cannot read conversion direction.")
-        .as_str()
-        .try_into()
-        .expect("Invalid target scale.");
+    let target_scale: TemperatureScale =
+        read_value::<TemperatureScale>(&mut stdin()).expect("Invalid target scale.");
 
+    let source_scale = match target_scale {
+        TemperatureScale::Celsius => TemperatureScale::Farenheit,
+        TemperatureScale::Farenheit => TemperatureScale::Celsius,
+    };
+    print!("Enter temperature in {}: ", source_scale);
+    let _ = std::io::stdout().flush();
     let source_value: f64 = read_value(&mut stdin()).expect("Cannot read source value.");
 
     let target_value = match target_scale {
