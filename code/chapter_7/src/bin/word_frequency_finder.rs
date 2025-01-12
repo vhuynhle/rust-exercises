@@ -25,10 +25,12 @@ fn word_freqs(contents: &str) -> HashMap<String, usize> {
     let mut words: HashMap<String, usize> = HashMap::new();
     let non_alphabetic = |ch: char| !ch.is_alphabetic();
 
-    for word in contents.split(non_alphabetic).map(|s| s.to_lowercase()) {
-        if !word.is_empty() {
-            *words.entry(word).or_insert(0) += 1;
-        }
+    for word in contents
+        .split(non_alphabetic)
+        .filter(|s| !s.is_empty())
+        .map(|s| s.to_lowercase())
+    {
+        *words.entry(word).or_insert(0) += 1;
     }
 
     words
